@@ -24,10 +24,10 @@ class ex04 {
 	System.out.println("Total value: " + (i + j));
 
 	if(i + j > 7){
-	    System.out.println("You won!");
+	    System.out.println(name + " won!");
 	}
         else{
-	    System.out.println("You lost.");
+	    System.out.println(name + " lost.");
 	}
     }
 }
