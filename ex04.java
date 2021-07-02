@@ -15,5 +15,12 @@ class ex04 {
 	System.out.println("Die 1: " + i);
 	System.out.println("Die 2: " + j);
 	System.out.println("Total value: " + (i + j));
+
+	if(i + j > 7){
+	    System.out.println("You won!");
+	}
+        else{
+	    System.out.println("You lost.");
+	}
     }
 }
